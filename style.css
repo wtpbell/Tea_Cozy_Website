@@ -1,0 +1,161 @@
+/* *{
+    border: 1px solid red;
+} */
+
+body {
+    background-color: black;
+    font-family: Helvetica, sans-serif;
+    font-size: 22px;
+    color: rgba(255, 246, 240, 0.9);
+    width: auto;
+    opacity: 0.9;
+
+}
+
+/* Nagivator */
+
+nav {
+    position: fixed;
+    background-color: #000000;
+    border-bottom: 1px solid seashell;
+    z-index: 20;
+}
+
+#navigator {
+    display: grid;
+    height: 69px;
+    grid-template-columns: 1fr 10fr;
+    align-items: center;
+    margin: auto 10px;
+}
+
+.tag li{
+    display: inline-flex;
+    padding-right: 10px;
+}
+
+.logo {
+    opacity: 0.9;
+    height: 50px;
+    grid-column: 1;
+    text-align: center;
+    margin-left: 10px;
+}
+
+.tag {
+    grid-column: 2/span9;
+    text-align: right;
+    margin-right: 0px;
+    text-decoration: underline;
+}
+
+
+
+
+/* Mission Statement*/
+
+.mission {
+    position: relative;
+    top: 69px;
+    width: 1200px;
+    height: 700px;
+    background-image: url("./Resources/img-mission-background.png");
+    display: flex;
+    flex-direction: column;
+    align-content: center;
+    justify-content:center;
+    margin: auto auto 100px auto;
+}
+
+.mission span {
+    width: auto;
+}
+
+.mission .statement{
+    background-color: #000000;
+    text-align: center;
+    margin-bottom: -30px;
+    padding: 10px;
+}
+
+
+/* Tea of the Month */
+
+.categories {
+    width: 1000px;
+    text-align: center;
+    margin-left: auto;
+    margin-right: auto;
+    margin-bottom: 80px;
+}
+
+.categories h2 {
+    margin-bottom: -10px;
+}
+
+.photoshots {
+    display: inline-flex;
+    flex-wrap: wrap;
+    justify-content: space-around;
+    align-items: center;
+    gap: 10px;
+}
+
+.photoshots img {
+    width: 300px;
+    height: 200px;
+}
+
+.photoshots p {
+    margin: 10px auto;
+}
+
+/* Locations */
+
+.locations {
+    text-align: center;
+    background-image: url(./Resources/img-locations-background.png);
+    height: 500px;
+    width: 1200px;
+    margin: auto auto 15px auto;
+}
+
+.locations h1 {
+    padding-top: 30px;
+    margin-bottom: 15px;
+}
+
+.locations .containers {
+    display: flex;
+    justify-content:center;
+    align-items: center;
+    gap: 40px;
+}
+
+.containers .address {
+    background-color: #000000;
+    min-height: 250px;
+    width: 300px;
+    text-align: center;
+    opacity: 1;
+}
+
+.containers p {
+    padding: 8px;
+}
+
+
+/* The Tea Cozy Contact */
+
+.contact {
+    height: 200px;
+    text-align: center;
+    margin: auto auto 20px auto;
+}
+
+/* Footer */
+
+footer {
+    text-align: left;
+    margin-left: 20px;
+}
