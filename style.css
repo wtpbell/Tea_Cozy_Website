@@ -57,7 +57,7 @@ nav {
 .mission {
     position: relative;
     top: 69px;
-    width: 1200px;
+    max-width: 1200px;
     height: 700px;
     background-image: url("./Resources/img-mission-background.png");
     display: flex;
@@ -82,7 +82,7 @@ nav {
 /* Tea of the Month */
 
 .categories {
-    width: 1000px;
+    max-width: 1000px;
     text-align: center;
     margin-left: auto;
     margin-right: auto;
@@ -104,6 +104,7 @@ nav {
 .photoshots img {
     width: 300px;
     height: 200px;
+    flex-basis: calc(33.33% - 200px);
 }
 
 .photoshots p {
@@ -116,7 +117,7 @@ nav {
     text-align: center;
     background-image: url(./Resources/img-locations-background.png);
     height: 500px;
-    width: 1200px;
+    max-width: 1200px;
     margin: auto auto 15px auto;
 }
 
